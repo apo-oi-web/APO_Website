@@ -1,0 +1,239 @@
+/*Social Link CSS by Daniel McDonough 3/15/16*/
+/*This is the CSS for the Navigation Bar*/
+
+@font-face {
+    font-family: APO;
+    src: url("../fonts/Raleway-Bold.ttf");
+}
+
+/*Set navbar container size dependant on device size*/
+@media (min-width: 992px){
+.container {
+    width: auto !important;
+}
+}
+
+@media (min-width: 768px){
+.container {
+    width: auto !important;
+}
+}
+
+
+.navbar{
+	/* #4169e1 */
+	background-color: #0033ab !important; /*Set navbar color to blue*/
+	color:#ccc !important; /*Set text color to white*/
+}
+
+.d-lg-none{
+	display: block !important; /*display the text "Alpha Phi Omega - OI"*/
+	margin-left: 10px;
+}
+
+.d-lg-block {
+    display: none !important; /*make image invisible*/
+}
+
+/*non mobile devices*/
+@media (min-width: 768px){
+.d-lg-block {
+    display: block!important; /*Set image to be displayed*/
+}
+.d-lg-none {
+		display: none!important; /*Make Text Invisible*/
+	}
+}
+
+/*push the body down to make room for the mobile navigation bar*/
+@media (max-width:760px){
+	body {
+		font-family: APO !important;
+		padding-top: 70px
+	}
+}
+
+
+/*Set the text/img hieght dynamically*/
+.navbar-brand{
+	height:auto !important;
+	padding: 20.5px 0px!important;
+}
+
+/*Make nav bar sticky*/
+.navbar-fixed-left,
+.navbar-fixed-right {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030
+}
+
+/*Make Nav Bar Sticky*/
+@media (min-width:768px) {
+    .navbar-fixed-left,
+    .navbar-fixed-right {
+        width: 232px;
+        height: 100vh;
+        border-radius: 0
+    }
+    .navbar-fixed-left .container,
+    .navbar-fixed-left .container-fluid,
+    .navbar-fixed-right .container,
+    .navbar-fixed-right .container-fluid {
+        padding-right: 0;
+        padding-left: 0;
+        width: auto
+    }
+    .navbar-fixed-left .navbar-header,
+    .navbar-fixed-right .navbar-header {
+        float: none;
+        padding-left: 15px;
+        padding-right: 15px
+    }
+    .navbar-fixed-left .navbar-collapse,
+    .navbar-fixed-right .navbar-collapse {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        max-height: none
+    }
+    .navbar-fixed-left .navbar-collapse .navbar-nav,
+    .navbar-fixed-right .navbar-collapse .navbar-nav {
+        float: none!important
+    }
+    .navbar-fixed-left .navbar-collapse .navbar-nav>li,
+    .navbar-fixed-right .navbar-collapse .navbar-nav>li {
+        width: 100%
+    }
+    .navbar-fixed-left .navbar-collapse .navbar-nav>li.dropdown .dropdown-menu,
+    .navbar-fixed-right .navbar-collapse .navbar-nav>li.dropdown .dropdown-menu {
+        top: 0
+    }
+    .navbar-fixed-left .navbar-collapse .navbar-nav.navbar-right,
+    .navbar-fixed-right .navbar-collapse .navbar-nav.navbar-right {
+        margin-right: 0
+    }
+	
+	
+	/*Down arrow on drop downmenus*/
+	i.fa-chevron-down {
+	  font-size: 16px;
+	  float:right;
+	  margin:auto;
+	}
+}
+
+	i.fa-chevron-down {
+	  margin-left:5px;
+	  font-size: 16px;
+	}
+
+/*disable ordered list sytling*/
+.panel-collapse{
+	list-style-type: none;
+}
+
+.panel{
+	box-shadow:none;
+	border:none;
+	-webkit-box-shadow: none;
+}
+
+.panel-group .panel+.panel {
+     margin-top: 0px;
+}
+
+/*set heading padding to 0 so that anchor tag can fill space*/
+.panel-heading{
+	padding: 0px;	
+}
+
+/*set anchor tag to fill space of the panel*/
+h4>a, h5>a { 
+	display: flex;
+	padding: 10px 15px;
+	}
+
+/*make bg color constant when collapsing*/
+.collapse,.collapsing, .collapse.in{
+	background-color: #0033ab !important;
+	padding: 5px 10px 5px 5px !important;
+}
+
+/*set default colors for mobile*/
+@media (max-width: 768px){
+	.panel-default>.panel-heading,
+		li.panel.panel-panel{
+		color: #212121;
+		background-color: #f9c100;
+		border-color: #dddddd;
+	}
+	
+	li.panel.panel-panel>a, li.panel.panel-panel{
+		color:#000;
+		height: 4em;
+		margin:auto;
+		margin-bottom: 5px;
+		width:100%;
+	}
+	
+	li.panel.panel-panel>a{
+		width:auto;
+		height:auto;
+	}
+	
+	.panel-title{
+		margin-left:10px;
+	}
+}
+
+/*hover methods on desktop*/
+@media(min-width:768px){
+h4>a.odd:hover,
+h4>a.odd:focus,
+h4>a.odd:active,
+h5>a.odd:hover,
+h5>a.odd:focus,
+h5>a.odd:active{
+	color:#000 !important;
+	background-position: left bottom;
+}
+
+h4>a.odd,h5>a.odd{
+   text-transform:uppercase;
+  color:#ddd !important;
+  border-bottom: 1px solid black;
+  display: block;
+  background: linear-gradient(to right,  #4169e1 50%,  #0033ab 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .4s ease;
+}
+
+
+
+h4>a.even:hover,
+h4>a.even:focus,
+h4>a.even:active,
+h5>a.even:hover,
+h5>a.even:focus,
+h5>a.even:active{
+	color:#000 !important;
+	background-position: left bottom;
+}
+
+h4>a.even,h5>a.even{
+  text-transform:uppercase;
+  color:#ddd !important;
+  border-bottom: 1px solid black;
+  display: block;
+  background: linear-gradient(to right,  #f9c100 50%,  #0033ab 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .4s ease;
+  
+}
+}
+
+
+

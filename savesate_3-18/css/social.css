@@ -1,0 +1,210 @@
+/*Social Link CSS by Daniel McDonough 3/15/16*/
+/*This is the CSS for the Social Links*/
+
+/*Default social box*/
+.social {
+    background-color: #757575;
+    color: white;
+    display: inline-block;
+    line-height: 1px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .1s;
+    -webkit-transition: background-color .1s;
+    -moz-transition: background-color .1s;
+    -ms-transition: background-color .1s;
+    -o-transition: background-color .1s
+	    position: relative;
+    font-size: 22px;
+    top: 0;
+    vertical-align: middle
+}
+
+/*set font size*/
+.social.social-lg:before,
+.social-lg>.social:before,
+.social.social-lg .glyphicon,
+.social-lg>.social .glyphicon,
+.social.social-lg .fa,
+.social-lg>.social .fa {
+    font-size: 28px
+}
+
+/*set an indent for the first child in the social links*/
+.social:first-child{
+	text-indent: 4px;
+}
+
+/*Make sure last child doesn't fly off the screen*/
+.social:last-child {
+    margin-right: 0
+}
+
+/*default hover color*/
+.social:hover {
+    background-color: #424242
+}
+
+/*default Hover and on click color*/
+.social:hover,
+.social:focus {
+    color: #fff;
+    text-decoration: none
+}
+
+/*default padding*/
+.social.social-icon {
+    color: #757575;
+    padding: 2px;
+    font-size: 24px
+}
+
+/*font size*/
+.social.social-icon.social-lg,
+.social-lg>.social.social-icon {
+    font-size: 28px
+}
+
+/*padding sizes*/
+.social.social-text.social-lg,
+.social-lg>.social.social-text {
+    font-size: 22px;
+    padding-right: 13px
+}
+
+
+/*container*/
+.social-sticky {
+    top: 0;
+    position: fixed;
+    z-index: 2000
+}
+
+/*Animations on stickey*/
+.social-sticky .social {
+    transition: padding .1s ease-out;
+    -webkit-transition: padding .1s ease-out;
+    -moz-transition: padding .1s ease-out;
+    -ms-transition: padding .1s ease-out;
+    -o-transition: padding .1s ease-out;
+    margin: 0
+}
+
+/*make a stick bottom actually sticky*/
+.social-sticky.social-bottom {
+    font-size: 0;
+    top: auto;
+    bottom: 0
+}
+
+/*animations on container*/
+.social-sticky.social-bottom.social-center {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%)
+}
+
+/*vertical on container*/
+.social-sticky.social-bottom .social {
+    vertical-align: bottom
+}
+
+/*max padding on hover*/
+.social-sticky.social-bottom .social:hover {
+    padding-bottom: 15px
+}
+
+
+
+/*Mobile Box Container*/
+@media (max-width:768px) {
+    .social-sticky {
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: auto;
+        width: 100%;
+        display: flex !important;
+        flex-direction: row;
+        flex-wrap: nowrap
+    }
+    .social-sticky.social-sticky-hide-xs {
+        display: none !important
+    }
+    .social-sticky .social {
+        flex: 1;
+        width: auto
+    }
+    .social-sticky .social .social-num {
+        display: none
+    }
+}
+
+
+/*Social Facebook box color*/
+.social-facebook {
+    background-color: #3B5998
+}
+
+/*Social Facebook box on hover*/
+.social-facebook:hover {
+    background-color: #2d4373
+}
+
+/*Social Twitter box color*/
+.social-twitter {
+    background-color: #1DA1F2
+}
+
+/*Social Twitter box on hover*/
+.social-twitter:hover {
+    background-color: #0c85d0
+}
+
+/*Social insta box color*/
+.social-instagram {
+    background-color: #e1b941;
+}
+
+/*Change insta box on hover*/
+.social-instagram:hover {
+    background-color: #e49032;
+}
+
+/*Social Snapchat box color*/
+.social-snapchat {
+    background-color: #904590;
+}
+
+/*Change Snapchat box on hover*/
+.social-snapchat:hover {
+    background-color: purple;
+}
+
+/*Social Email box color*/
+.social-email {
+    background-color: #757575
+}
+
+/*Change Email box on hover*/
+.social-email:hover {
+    background-color: #5b5b5b
+}
+
+/*Social Tos box color*/
+.social-tos {
+    background-color: #c87474;
+}
+
+/*Change Tos box on hover*/
+.social-tos:hover {
+    background-color:#a35959; 
+}
+
