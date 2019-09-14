@@ -1,5 +1,4 @@
-
-readFromFile('WebsiteText.txt');
+readFromFile('./txt/WebsiteText.txt');
 function readFromFile(path){
   $.get(path, function(data) {
      processData(data);

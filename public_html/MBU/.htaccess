@@ -1,0 +1,5 @@
+ErrorDocument 404 http://users.wpi.edu/~APO/MBU/index.html
+ErrorDocument 403 http://users.wpi.edu/~APO/MBU/index.html
+
+#Options +ExecCGI
+AddHandler cgi-script .py

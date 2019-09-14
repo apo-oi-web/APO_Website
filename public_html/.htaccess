@@ -1,0 +1,2 @@
+ErrorDocument 404 http://users.wpi.edu/~APO/index.html
+ErrorDocument 403 http://users.wpi.edu/~APO/index.html
