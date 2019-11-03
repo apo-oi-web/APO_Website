@@ -468,7 +468,7 @@ h1, .h1, h2, .h2, h3, .h3 {
 }
 
 .cd-fixed-bg.cd-fixed-bg--1 {
-    background-image: url(../img/cd-background-1.jpg);
+    background-image: url(../img/cd-background-1.png);
     background-repeat: no-repeat;
     background-size: 100% 150%;
     ms-background-size: 100% 150%;
@@ -483,11 +483,11 @@ h1, .h1, h2, .h2, h3, .h3 {
 }
 
 .cd-fixed-bg.cd-fixed-bg--3 {
-    background-image: url(../img/cd-background-3.jpg)
+    background-image: url(../img/cd-background-3.png)
 }
 
 .cd-fixed-bg.cd-fixed-bg--4 {
-    background-image: url(../img/cd-background-4.jpg)
+    background-image: url(../img/cd-background-4.png)
 }
 
 @media only screen and (min-width: 768px) {
@@ -742,5 +742,3 @@ h1, .h1, h2, .h2, h3, .h3 {
     -o-transition: all .4s;
     ms-transition: all .4s
 }
-
-.
