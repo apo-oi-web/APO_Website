@@ -32,7 +32,8 @@ a {
 }
 
 a:hover {
-    color: #f5b315
+    /* color: #f5b315 */
+    /*this is what changes the hover color of links in the drop down menu*/
 }
 
 .bg-primary {
