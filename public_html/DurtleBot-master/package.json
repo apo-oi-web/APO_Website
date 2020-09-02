@@ -12,7 +12,7 @@
   "dependencies": {
     "@slack/client": "^4.8.0",
     "@slack/events-api": "^2.1.1",
-    "googleapis": "^27.0.0",
+    "googleapis": "^39.1.0",
     "moment": "^2.24.0",
     "ngrok": "^3.1.0",
     "slackbots": "^1.2.0"
