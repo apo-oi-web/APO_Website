@@ -87,6 +87,12 @@ img::-moz-selection {
     background: 0 0
 }
 
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 body {
     -webkit-tap-highlight-color: #484848
 }
