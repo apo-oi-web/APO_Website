@@ -1,0 +1,90 @@
+<!-- Navbar --!>
+<!-- End Navbar --!>
+<1-- BEGIN CONTENT--!>
+<div id="body" class="container-fluid">
+<div class="header-row header-img-background pos-center" style="background-image: url(./img/contact-us.jpg);"><h1 class="text-white">Contact Us</h1></div>
+<br/>
+<br/>
+	<div class="content">
+<div class="row">
+<div class="col-lg-2 col-md-2 mx-auto text-center">
+</div>
+<div class="col-lg-8 col-md-8 mx-auto">
+	<table>
+		<tr>
+			<center>
+				<h3>Diversity and Inclusion Chair</h3>
+				<p>The Diversity and Inclusion Chair reports to the President. They are in charge of making sure our brotherhood is open to everyone. They plan events that align with our core principles while integrating and focusing on issues that minority groups face everyday.</p>
+			</center>
+			<br>
+		</tr>
+		<tr>
+			<center>
+				<h3>Weekly Service Chair</h3>
+				<p>The Weekly Service Chair(s) reports to the Service Vice President(s). They are in charge of planning weekly services for the chapter.</p>
+			</center>
+			<br>
+		</tr> 
+    		<tr>
+			<center>
+				<h3>Core Service Chairs</h3>
+				<p>The Core Service Chair(s) reports to the Service Vice President(s). They are in charge of planning and running the annual services; these annual services include Merit Badge University, Raffle for Relief, and Badge Blast.</p>
+			</center>
+			<br>
+		</tr> 
+    		<tr>
+			<center>
+				<h3>Recruitment Chair</h3>
+				<p>The Recruitment Chair reports to the Membership Vice President(s). They are in charge of overseeing and planning recruitment and gathering feedback following recruitment.</p>
+			</center>
+			<br>
+		</tr> 
+    		<tr>
+			<center>
+				<h3>Retention Chair</h3>
+				<p>The Retention Chair reports to the Membership Vice President(s). They are in charge of planning and hosting Brother Appreciation Week and encouraging brother engagement.</p>
+			</center>
+			<br>
+		</tr> 
+    		<tr>
+			<center>
+				<h3>Alumni Relations Chair</h3>
+				<p>The Alumni Relations Chair reports to the Membership Vice President(s). They are in charge of maintaining contact with Alumni of the chapter.</p>
+			</center>
+			<br>
+		</tr> 
+    		<tr>
+			<center>
+				<h3>Semiformal/Formal Chair</h3>
+				<p>The Semiformal/Formal Chair(s) reports to the Fellowship Vice President(s). They are in charge of planning Semiformal/Formal.</p>
+			</center>
+			<br>
+		</tr> 
+    		<tr>
+			<center>
+				<h3>Intramurals Chair</h3>
+				<p>The Intramurals Chair reports to the Fellowship Vice President(s). They are in charge of being the captain of APO-OI’s intramural teams and overseeing events.</p>
+			</center>
+			<br>
+		</tr> 
+    <tr>
+			<center>
+				<h3>Fundraising Chair</h3>
+				<p>The Fundraising Chair reports to the Treasurer. They are in charge of coordinating fundraising for the chapter.</p>
+			</center>
+			<br>
+		</tr> 
+    <tr>
+			<center>
+				<h3>Web Chair</h3>
+				<p>The Web Chair reports to the Public Relations Officer. They are in charge of maintaining and developing APO’s web-based assets.</p>
+			</center>
+			<br>
+		</tr> 
+    <tr>
+			<center>
+				<h3>Heads of Houses</h3>
+				<p>The Heads of Houses report to the Sergeant at Arms. They are in charge of planning house events, such as services and fellowships.</p>
+			</center>
+			<br>
+		</tr> 
