@@ -23,6 +23,7 @@ a{
 	-webkit-transition:all .2s;
 	-moz-transition:all .2s;
 	transition:all .2s;
+	word-wrap: break-word;
 }
 a:hover{
 	color:#f5b315;
@@ -36,6 +37,7 @@ h1,h2,h3,h4,h5,h6{
 .bg-dark{
 	background-color:#212529!important;
 }
+
 .text-faded{
 	color:rgba(255,255,255,.7);
 }
@@ -147,6 +149,7 @@ header.masthead{
 	-o-background-size:cover;
 	background-size:cover;
 }
+
 header.masthead hr{
 	margin-top:30px;
 	margin-bottom:30px;
@@ -348,4 +351,24 @@ footer ul li a.active,footer ul li a:active,footer ul li a:focus,footer ul li a:
 .btn-xl{
 	font-size:11px;
 	padding:15px 45px;
+}
+
+.card-header {
+    background-color: #515151!important;
+	border-radius:0!important;
+}
+.card{
+border-radius:0!important;
+background-color:#212529!important;
+}
+
+.card > .card-header a::before {
+    font-family: fontawesome;
+    content: "\f067 ";
+    color: f5b315;
+    float: right;
+    margin-right: 15px;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
 }
